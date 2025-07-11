@@ -129,7 +129,38 @@ header{
         display: flex;
     }
 
-   .section.title{
-    text-align: center;
-   }
-    
+  .section-repo{
+    display: flex;
+  }
+  .parent-tag{
+    display: flex;
+    justify-content: space-around;
+  }
+    .user-style{
+        margin-top: 130px;
+    }
+    .user-title{
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+     /* form tile styles */
+     .section-boss{
+        display: flex;
+        justify-content: space-between;
+     }
+
+     main input[type="text"] , main input[type="email"] , main textarea{
+        display: block;
+        padding: 20px 32px 20px 32px;
+
+     }
+
+     .btn-primary-pro{
+        background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 19px 101px 19px 101px;
+     }
