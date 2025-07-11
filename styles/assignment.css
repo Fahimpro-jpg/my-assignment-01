@@ -31,6 +31,9 @@ header{
 .btn-primary:hover{
     background-color: aqua;
 }
+.btn-primary-pro:hover{
+    background-color: aqua;
+}
 /* nav styles */
     nav{
         display: flex;
@@ -177,3 +180,26 @@ header{
         gap: 15px;
      }
      
+     /* footer styles */
+    
+     .footer-title{
+        font-size: 100px;
+        text-align: center;
+        margin-bottom: 8px;
+        margin-right: 170px;
+     }
+     .footer-description{
+        text-align: center;
+     }
+     
+     .list-items{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+       
+     }
+     .link-item{
+        text-decoration: none;
+        color: #757575;
+     }
+   
