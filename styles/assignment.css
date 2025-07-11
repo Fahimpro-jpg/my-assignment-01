@@ -1,0 +1,135 @@
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* header styles */
+header{
+    background-image: url("../styles/Assets/Hero-bg.png");
+   
+}
+.h-logo{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-left: 150px;
+    
+}
+
+/* shared styles */
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding:12px 36px ;
+}
+.btn-primary:hover{
+    background-color: aqua;
+}
+/* nav styles */
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+    nav li{
+        list-style: none;
+        margin-right: 150px;
+    }
+    
+    /* banner styles */
+    .banner-title{
+        font-size: 65px;
+        font-weight: bold;
+    }
+    .banner-content{
+        text-align: center;
+        padding:200px 260px 230px 260px;
+        
+    }
+
+    /* title styles */
+  .img-title{
+        display: flex;
+        justify-content: space-between;
+      margin-top: 110px;
+      margin-left: 140px;
+      margin-right: 150px;
+    }
+  
+        .main-title{
+            max-width: 500px;
+            text-align: left;
+        }
+    .title-content{
+        font-size: 42px;
+        font-weight: bold;
+        margin-bottom:15px;
+    }
+    .sub-title-content{
+        color: #757575;
+        font-size: 24px;
+     font-weight: 200;
+    }
+    
+    
+    .img-style{
+        border-radius: 40px;
+    }
+    /* main styles */
+
+    main{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    /* section styles */
+    .section-style{
+        text-align: center;
+        background-color: #DFDEFF;
+        padding-top: 30px;
+        margin-top: 110px;
+        border-radius: 20px;
+    }
+    .section-title{
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .about-items{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .item-title{
+        color: #4E47FF;
+        font-size: 80px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .item-section{ 
+        font-size:20px ;
+        color:#757575 ;
+        
+    }
+
+    /* reveiw styles */
+    .customer-review{
+        display: flex;
+    }
+
+   .section.title{
+    text-align: center;
+   }
+    
