@@ -156,6 +156,11 @@ header{
         padding: 20px 32px 20px 32px;
 
      }
+     .form-title{
+        font-size: 97px;
+        font-weight: bold;
+       margin-top:270px;
+     }
 
      .btn-primary-pro{
         background-color: #4E47FF;
@@ -163,4 +168,12 @@ header{
     border-radius: 10px;
     border: none;
     padding: 19px 101px 19px 101px;
+    margin-top: 10px;
      }
+
+     .form-description{
+        margin-top: 140px;
+        margin-bottom: 140px;
+        gap: 15px;
+     }
+     
